@@ -35,9 +35,9 @@
 3. `Регистрируем gitlab-runner скриншот 2 и 3`
 
 
-![Скриншот-1](https://github.com/zef33/DZ8.03/tree/8336521078ee1c60f45a5a50dcc756acdbcbef5f/img/скрин1.png)
-![Скриншот-2](https://github.com/zef33/DZ8.03/tree/8336521078ee1c60f45a5a50dcc756acdbcbef5f/img/скрин2.png)
-![Скриншот-3](https://github.com/zef33/DZ8.03/tree/8336521078ee1c60f45a5a50dcc756acdbcbef5f/img/скрин3.png)
+![Скриншот-1](https://github.com/zef33/DZ8.03/blob/main/img/скрин1.png)
+![Скриншот-2](https://github.com/zef33/DZ8.03/blob/main/img/скрин2.png)
+![Скриншот-3](https://github.com/zef33/DZ8.03/blob/main/img/скрин3.png)
 
 
 ---
@@ -92,6 +92,6 @@ build:
       - netology
 
 ```
-![Скриншот-4](https://github.com/zef33/DZ8.03/tree/8336521078ee1c60f45a5a50dcc756acdbcbef5f/img/скрин4.png)
-![Скриншот-5](https://github.com/zef33/DZ8.03/tree/8336521078ee1c60f45a5a50dcc756acdbcbef5f/img/скрин5.png)
-![Скриншот-6](https://github.com/zef33/DZ8.03/tree/8336521078ee1c60f45a5a50dcc756acdbcbef5f/img/скрин6.png)
+![Скриншот-4](https://github.com/zef33/DZ8.03/blob/main/img/скрин4.png)
+![Скриншот-5](https://github.com/zef33/DZ8.03/blob/main/img/скрин5.png)
+![Скриншот-6](https://github.com/zef33/DZ8.03/blob/main/img/скрин6.png)
