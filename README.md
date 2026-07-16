@@ -35,7 +35,7 @@
 1. скриншот страницы шаблона с названием «Задание 1»
 
 
-![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание1.jpg))
+![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание1.jpg)
 
 
 
@@ -70,7 +70,7 @@
 1. Установленны zabbix agent на 2 хоста, один из них сервер zabbix
 2. Прикреплены шаблоны
 
-![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание2-3.jpg))
+![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание2-3.jpg)
 
 ---
 
@@ -82,4 +82,4 @@
 В разделе Dashboards создайте новый дашборд
 Разместите на нём несколько графиков на ваше усмотрение.
 
-![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание4.jpg))
+![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание4.jpg)
