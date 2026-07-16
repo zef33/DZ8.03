@@ -35,7 +35,7 @@
 1. скриншот страницы шаблона с названием «Задание 1»
 
 
-![Скриншот-1](https://github.com/zef33/DZ8.03/blob/main/img/Задание1.png)
+![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание1.jpg))
 
 
 
@@ -70,4 +70,4 @@
 1. Установленны zabbix agent на 2 хоста, один из них сервер zabbix
 2. Прикреплены шаблоны
 
-![Скриншот-1](https://github.com/zef33/DZ8.03/blob/main/img/Задание2-3.png)
+![Скриншот-1](https://github.com/zef33/DZ8.03/blob/main/img/Задание2-3.jpg)
