@@ -113,5 +113,5 @@ case "$1" in
 esac
 
 
-![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание5.jpg)
-![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание7.jpg)
+![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Рисунок5.jpg)
+![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Рисунок7.jpg)
