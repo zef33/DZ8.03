@@ -95,7 +95,7 @@
  Прикрепите в файл README.md код скрипта, а также скриншот Latest data с результатом работы скрипта на bash, чтобы был виден результат работы скрипта при отправке в него 1 и 2
  
 ```
-Поле для вставки кода...
+
 #!/usr/bin/env bash
 
 case "$1" in
@@ -111,6 +111,7 @@ case "$1" in
     exit 1
     ;;
 esac
+
 
 ![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание5.jpg)
 ![Скриншот-1](https://github.com/zef33/DZ8.03/blob/zabbix/img/Задание7.jpg)
