@@ -95,7 +95,6 @@
  Прикрепите в файл README.md код скрипта, а также скриншот Latest data с результатом работы скрипта на bash, чтобы был виден результат работы скрипта при отправке в него 1 и 2
  
 ```
-
 #!/usr/bin/env bash
 
 case "$1" in
@@ -116,3 +115,71 @@ esac
 
 ![Скриншот-3](https://github.com/zef33/DZ8.03/blob/zabbix/img/Рисунок5.jpg)
 ![Скриншот-4](https://github.com/zef33/DZ8.03/blob/zabbix/img/Рисунок7.jpg)
+
+
+### Задание 7* со звёздочкой
+Доработайте Python-скрипт из лекции, создайте для него UserParameter и прикрепите его к созданному вами ранее шаблону. Скрипт должен:
+
+при получении 1 возвращать ваши ФИО,
+
+при получении 2 возвращать текущую дату,
+
+делать всё, что делал скрипт из лекции.
+
+ Прикрепите в файл README.md код скрипта в Git. Приложите в Git скриншот Latest data с результатом работы скрипта на Python, чтобы были видны результаты работы скрипта при отправке в него 1, 2, -ping, а также -simple_print.*
+
+ ```
+#!/usr/bin/env python3
+import sys
+import os
+import re
+from datetime import datetime
+
+def main():
+    # Проверка: должен быть хотя бы 1 аргумент
+    if len(sys.argv) < 2:
+        print("ZBX_NOTSUPPORTED")
+        sys.exit(1)
+
+    mode = sys.argv[1]
+
+    # Новые требования
+    if mode == "1":
+        # Возвращаем ivanovfn
+        print("ivanovfn")
+        return
+
+    elif mode == "2":
+        # Возвращаем текущую дату и время в удобном формате
+        print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+        return
+
+    # Старая логика -ping (с небольшой защитой)
+    elif mode == "-ping":
+        if len(sys.argv) < 3:
+            print("ZBX_NOTSUPPORTED")
+            sys.exit(1)
+        target = sys.argv[2]
+        # ping -c 1: 1 пакет; -W 3: таймаут 3 сек (чтобы не зависал)
+        result = os.popen(f"ping -c 1 -W 3 {target}").read()
+        match = re.search(r"time=([0-9]+(?:\.[0-9]+)?) ms", result)
+        if match:
+            print(match.group(1))
+        else:
+            # Если не удалось вытащить время — сообщаем, что пинг не прошёл
+            print("ZBX_NOTSUPPORTED")
+        return
+
+    # Старая логика -simple_print
+    elif mode == "-simple_print":
+        if len(sys.argv) < 3:
+            print("ZBX_NOTSUPPORTED")
+            sys.exit(1)
+        print(sys.argv[2])
+        return
+
+    else:
+
+```
+
+![Скриншот-4](https://github.com/zef33/DZ8.03/blob/zabbix/img/Рисунок6.jpg)
