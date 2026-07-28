@@ -51,10 +51,9 @@ HAproxy должен балансировать только тот http-тра�
 
 1. `запускаем три simple python сервера на портах 8888, 9999 и 7777 скриншот 1`
 2. `Настраиваем балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4 что видно в конфигурационном файле скриншот 2`
-3. Прописываем домен example.local в конфигурационном файле.
+3. `Прописываем домен example.local в конфигурационном файле.`
 4. `На скриншоте 3 видим перенаправление запросов при обращении к HAProxy`
 
-```
 ![Скриншот-1](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans6.jpg)
 ![Скриншот-2](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans8.jpg)
 ![Скриншот-3](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans7.jpg)
