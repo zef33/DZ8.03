@@ -32,6 +32,7 @@
 2. `Устанавливаем и настраиваем HAProxy, конфигурационный файл скриншот 3`
 3. `Проверяем работу перенаправления запросов скриншот 4`
 
+---
 
 ![Скриншот-1](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans3.jpg)
 ![Скриншот-2](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans4.jpg)
@@ -42,55 +43,18 @@
 ---
 
 ### Задание 2
-Что нужно сделать:
+Задание 2
+Запустите три simple python сервера на своей виртуальной машине на разных портах
+Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
+HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
+На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
 
-Запушьте репозиторий на GitLab, изменив origin. Это изучалось на занятии по Git.
-Создайте .gitlab-ci.yml, описав в нём все необходимые, на ваш взгляд, этапы.
-
-1. Создаем в проекте projekt8.03 .gitlab-ci.yml
-2. Запускаем задачи и проверяем работоспо собность
-
-```
-Поле для вставки кода...
-stages:
-  - test
-  - build
-
-test:
-  stage: test
-  image: golang:1.17
-  script: 
-   - go test .
-  tags:
-     - netology
-
-static-analysis:
- stage: test
- image:
-  name: sonarsource/sonar-scanner-cli
-  entrypoint: [""]
- variables:
- script:
-  - sonar-scanner -Dsonar.projectKey=netology -Dsonar.sources=. -Dsonar.host.url=http://gitlab.localdomain:9000 -Dsonar.login=sqp_9f0ab50a2ed92fa6e6af66061be9612ba57ed3f9
- tags:
-     - netology
-
-build:
-  stage: build
-  image: docker:latest
-  script:
-   - docker build .
-  
-
-build:
-  stage: build
-  image: docker:latest
-  script:
-   - docker build .
-  tags:
-      - netology
+1. `запускаем три simple python сервера на портах 8888, 9999 и 7777 скриншот 1`
+2. `Настраиваем балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4 что видно в конфигурационном файле скриншот 2`
+3. Прописываем домен example.local в конфигурационном файле.
+4. `На скриншоте 3 видим перенаправление запросов при обращении к HAProxy`
 
 ```
-![Скриншот-4](https://github.com/zef33/DZ8.03/blob/main/img/скрин4.png)
-![Скриншот-5](https://github.com/zef33/DZ8.03/blob/main/img/скрин5.png)
-![Скриншот-6](https://github.com/zef33/DZ8.03/blob/main/img/скрин6.png)
+![Скриншот-1](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans6.jpg)
+![Скриншот-2](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans8.jpg)
+![Скриншот-3](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans7.jpg)
