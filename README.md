@@ -181,4 +181,4 @@ backend web_servers    # секция бэкенд
 ![Скриншот-1](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans6.jpg)
 ![Скриншот-2](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans8.jpg)
 ![Скриншот-3](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans7.jpg)
-![Скриншот-4](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans8.jpg)
+![Скриншот-4](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans9.jpg)
