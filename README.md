@@ -53,7 +53,7 @@ HAproxy должен балансировать только тот http-тра�
 2. `Настраиваем балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4 что видно в конфигурационном файле скриншот 2`
 3. `Прописываем домен example.local в конфигурационном файле.`
 4. `На скриншоте 3 видим перенаправление запросов при обращении к HAProxy`
----
+```
 global
 	log /dev/log	local0
 	log /dev/log	local1 notice
@@ -112,7 +112,7 @@ backend web_servers    # секция бэкенд
         server 1 127.0.0.1:8888 weight 2 check
         server 2 127.0.0.1:9999 weight 3 check
         server 3 127.0.0.1:7777 weight 4 check
----
+```
 ![Скриншот-1](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans6.jpg)
 ![Скриншот-2](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans8.jpg)
 ![Скриншот-3](https://github.com/zef33/DZ8.03/blob/Balans/Balans/Balans7.jpg)
