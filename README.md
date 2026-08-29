@@ -23,7 +23,7 @@
 3. `Регистрируем gitlab-runner скриншот 2 и 3`
 
 
-![Скриншот-1](https://github.com/zef33/DZ8.03/blob/main/img/скрин1.png)
-![Скриншот-2](https://github.com/zef33/DZ8.03/blob/main/img/скрин2.png)
-![Скриншот-3](https://github.com/zef33/DZ8.03/blob/main/img/скрин3.png)
+![Скриншот-1](https://github.com/zef33/DZ8.03/blob/Balans1/Balans2.1.jpg)
+![Скриншот-2](https://github.com/zef33/DZ8.03/blob/Balans1/Balans2.2.jpg)
+
 
