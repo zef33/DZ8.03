@@ -35,8 +35,8 @@ $ cat /etc/hosts
 В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.
 
 Также приложите вывод команды с двух нод:
-
 $ rabbitmqctl cluster_status
+
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
 $ rabbitmqadmin get queue='hello'
@@ -49,4 +49,13 @@ $ rabbitmqadmin get queue='hello'
 ![Скриншот-5](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa5.1.jpg)
 ![Скриншот-6](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa6.jpg)
 
-3.  
+2. Запускаем скрипт [producer.py](https://github.com/zef33/DZ8.03/blob/Basa1/producer.py) результат скриншот7
+![Скриншот-6](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa10.jpg)
+
+3. Применил политику ttl-1h так как политики с параметрами ha-* не поддерживаются в RabbitMQ 4.3 и выдают ошибку при вводе. 
+![Скриншот-7](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa7.jpg)
+![Скриншот-8](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa9.jpg)
+![Скриншот-9](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa12.jpg)
+4. Отключаем ноду rmq01 и применяем скрипты повторно
+![Скриншот-10](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa8.jpg)
+![Скриншот-11](https://github.com/zef33/DZ8.03/blob/Basa1/basa/bas11.jpg)
