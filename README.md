@@ -15,5 +15,7 @@
 Зайдите в веб-интерфейс, найдите очередь под названием hello и сделайте скриншот. После чего запустите второй скрипт consumer.py и сделайте скриншот результата выполнения скрипта
 
 1. Запускаем скрипт [producer.py](https://github.com/zef33/DZ8.03/blob/Basa1/producer.py) результат скриншот2
+2. Запускаем скрипт [consumer.py](https://github.com/zef33/DZ8.03/blob/Basa1/consumer.py) результат скриншот3
 2. Запускаем задачи и проверяем работоспо собность
 ![Скриншот-2](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa2.jpg)
+![Скриншот-3](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa11.jpg)
