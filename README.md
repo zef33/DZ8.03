@@ -58,4 +58,4 @@ $ rabbitmqadmin get queue='hello'
 ![Скриншот-9](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa12.jpg)
 4. Отключаем ноду rmq01 и применяем скрипты повторно
 ![Скриншот-10](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa8.jpg)
-![Скриншот-11](https://github.com/zef33/DZ8.03/blob/Basa1/basa/bas11.jpg)
+![Скриншот-11](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa11.jpg)
