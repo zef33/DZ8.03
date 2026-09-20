@@ -47,6 +47,6 @@ $ rabbitmqadmin get queue='hello'
 1. Устанавливаем RabbitMQ и соединяем в кластер что видно на скриншоте 4,5,6
 ![Скриншот-4](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa5.jpg)
 ![Скриншот-5](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa5.1.jpg)
-![Скриншот-6](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa11.jpg)
+![Скриншот-6](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa6.jpg)
 
 3.  
