@@ -16,8 +16,4 @@
 
 1. Запускаем скрипт [producer.py](https://github.com/zef33/DZ8.03/blob/Basa1/producer.py) результат скриншот2
 2. Запускаем задачи и проверяем работоспо собность
-
-```
-![Скриншот-2](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa1.jpg)
-![Скриншот-5](https://github.com/zef33/DZ8.03/blob/main/img/скрин5.png)
-![Скриншот-6](https://github.com/zef33/DZ8.03/blob/main/img/скрин6.png)
+![Скриншот-2](https://github.com/zef33/DZ8.03/blob/Basa1/basa/basa2.jpg)
